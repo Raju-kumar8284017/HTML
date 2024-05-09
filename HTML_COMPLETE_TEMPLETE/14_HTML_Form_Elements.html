@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        form{
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+    <!--simple input and label-->
+        <div>
+            <form>
+                <label for="User Name">User Name</label><br>
+                <input type="text" name="User Name" placeholder="enter User Name"><br>
+                <label>Password</label><br>
+                <input type="password" name="password" placeholder="enter password"><br>
+                <input type="submit" name="" value="login">
+            </form>
+        </div>
+
+        <!--table form-->
+        <h2>table form</h2>
+        <div>
+            <form>
+                <tr>
+                    <td>
+                        <label>User Name</label>
+                    </td>
+                     <td>
+                         <input type="text" name="User Name" placeholder="enter User Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                     <td>
+                         <input type="Password" name="Password" placeholder="enter User Password">
+                    </td>
+                </tr>
+                 <tr>
+                     <td>
+                        <input type="submit" name="" value="login">
+                    </td>
+                </tr>
+            </form>
+        </div>
+
+        <!--select and option-->
+        <div>
+            <h1>select and option</h1>
+           <form>
+             <label>Select a language</label>   
+            <select>
+                <option>html</option>
+                <option>css</option>
+                <option>javaScript</option>
+                <option>java</option>
+                <option>php</option>
+            </select>
+            </form>
+        </div>
+
+        <!--textarea-->
+
+        <div>
+            <h1>textarea</h1>
+            <form>
+                <label>Enter Your Massage</label>
+                <textarea></textarea>
+            </form>
+        </div>
+
+         <!--Data List-->
+
+         <div>
+            <h1>Data List</h1>
+             <form>
+                <label>Select a language</label>
+                <input list="datalist"name="Select a language">
+                 <datalist id="datalist">
+                        <option value="html">
+                         <option value="css">
+                          <option value="java">
+                           <option value="php">
+                            <option value=".net">
+                             <option value="sql">
+                              <option value="jquery">
+
+                 </datalist>
+                 <input type="submit" name="" value="send">
+             </form>
+         </div>
+
+
+
+
+</body>
+</html>

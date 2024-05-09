@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: forestgreen;
+            color: white;
+            padding: 10px;
+            width: 400px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Field Attributes  -->
+    <!--    value,-->
+            <div>
+                <form>
+                    <label>user name</label>
+                    <input type="text" name="" value="name">
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+    <!--     readonly, -->
+                <div>
+                <form>
+                    <label>user name</label>
+                    <input type="text" name="" readonly>
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+
+     <!--   disabled,-->
+                    <div>
+                <form>
+                    <label>user name</label>
+                    <input type="text" name="" disabled>
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+
+     <!--    size, -->
+                    <div>
+                <form>
+                    <label>user name</label>
+                    <input type="text" name="" size="50px">
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+
+      <!--  rows , cols -->
+                        <div>
+                <form>
+                    <label>massage</label>
+                    <textarea rows="5" cols="15"></textarea>
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+    
+    <!--    HTML5 Input Field Attributes-->
+
+    <!--    required,-->
+                     <div>
+                <form>
+                    <label>user name *</label>
+                    <input type="text" name="" required>
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+     <!--   novalidate,-->
+
+                   <div>
+                <form novalidate>
+                    <label>enter email</label>
+                    <input type="email" name="" >
+                    <input type="submit" name="">
+                </form>
+            </div>
+    <!--    autofocus,-->
+                    <div>
+                <form >
+                    <label>user name</label>
+                    <input type="text" name=""  autofocus>
+                    <input type="submit" name="">
+                </form>
+            </div>
+           
+   <!--    placeholder,-->
+                           <div>
+                <form >
+                    <label>user name</label>
+                    <input type="text" name=""   placeholder="enter User Name">
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+    <!--    pattern [a-zA-Z0-9]{1-10}$-->
+            <div>
+                <form >
+                    <label> twitter user name</label>
+                    <input type="text" name=""  pattern="[a-zA-Z0-9_]{1,10}$"  placeholder="like this[a-zA-Z0-9_]{1,10}$">
+                    <input type="submit" name="">
+                </form>
+            </div>
+
+
+<br><br><br>
+</body>
+</html>

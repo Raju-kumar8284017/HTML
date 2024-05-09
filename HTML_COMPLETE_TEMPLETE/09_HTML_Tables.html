@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+      table , th, td{
+          border: 2px solid red;
+          border-collapse: collapse;
+          text-align: center;
+          padding: 10px;
+      }
+      #cust th{
+        background-color: red;
+        color: white;
+
+      }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+    <!--simple table-->
+        <h1>simple table</h1>
+    <table width="100%">
+            <tr>
+                <th>sl_no</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>raju</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Raman</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>sam</td>
+              <td>26</td>
+            </tr>
+    </table>
+    <!--col sapn table-->
+        <h1>col span table</h1>
+    <table width="100%">
+            <tr>
+                <th>sl_no</th>
+                <th colspan="2">name & age</th>
+                
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>raju</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Raman</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>sam</td>
+              <td>26</td>
+            </tr>
+    </table>
+    <!--col sapn table-->
+         <h1>row span table</h1>
+    <table width="100%">
+            <tr>
+                <th>sl_no</th>
+                <th >name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+              <td rowspan="3">1-3</td>
+              <td>raju</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              
+              <td>Raman</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              
+              <td>sam</td>
+              <td>26</td>
+            </tr>
+    </table>
+    <!-- custom table with css-->
+
+             <h1>custom table with css</h1>
+    <table width="100%" id="cust">
+            <tr>
+                <th>sl_no</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>raju</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Raman</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>sam</td>
+              <td>26</td>
+            </tr>
+    </table>
+
+</body>
+</html>
